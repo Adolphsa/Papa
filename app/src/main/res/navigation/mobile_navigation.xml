@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_device"
+    >
+
+    <fragment
+        android:id="@+id/navigation_device"
+        android:name="com.lucas.papa.ui.device.DeviceFragment"
+        android:label="@string/nav_title_device"
+        tools:layout="@layout/fragment_device"
+        />
+
+    <fragment
+        android:id="@+id/navigation_location"
+        android:name="com.lucas.papa.ui.location.LocationFragment"
+        android:label="@string/nav_title_location"
+        tools:layout="@layout/fragment_location"
+        />
+
+
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.lucas.papa.ui.camera.CameraFragment"
+        android:label="@string/nav_title_camera"
+        tools:layout="@layout/fragment_camera"
+        />
+
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.lucas.papa.ui.setting.SettingFragment"
+        android:label="@string/nav_title_setting"
+        tools:layout="@layout/fragment_setting"
+        />
+
+</navigation>

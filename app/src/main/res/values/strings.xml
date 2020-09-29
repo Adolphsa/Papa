@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Papa</string>
+
+    <string name="nav_title_device">设备</string>
+    <string name="nav_title_location">定位</string>
+    <string name="nav_title_camera">相机</string>
+    <string name="nav_title_setting">设置</string>
+</resources>
